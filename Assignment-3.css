@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    color: #0056b3;
+    margin-left: 20px;
+}
+
+.external-style {
+    font-size: 18px;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#my_p{
+        color: aqua;
+        background-color: cadetblue;
+        font-size: 18px;
+}

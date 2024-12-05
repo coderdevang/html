@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page with CSS</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="Assignment-3.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #5711d1;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            margin: 20px;
+        }
+
+        .internal-style {
+            background-color: #67c01a;
+            border-left: 5px solid #ccc;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Simple Web Page</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This is a simple web page created using elementary HTML tags and styled using inline, internal, and external CSS.</p>
+        </section>
+
+        <!-- Using Inline CSS -->
+        <section style="color: #c12525; background-color: #fafafa; padding: 15px; border: 1px solid #ddd;">
+            <h2>Inline CSS Example</h2>
+            <p style="font-size: 18px;">This section uses inline CSS for quick styling.</p>
+        </section>
+
+        <!-- Section with Internal CSS -->
+        <section class="internal-style">
+            <h2>Internal CSS Example</h2>
+            <p>This section is styled using internal CSS defined in the &lt;style&gt; tag within the HTML head section.</p>
+        </section>
+
+        <!-- External CSS Example -->
+        <section>
+            <h2>External CSS Example</h2>
+            <p class="external-style">This section uses external CSS linked from a separate file.</p>
+        </section>
+    </main>
+    <br>
+    <section>
+        <p class="external-style ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ab labore maiores ullam totam soluta animi quidem, quibusdam nihil in alias minus unde aliquid quos dicta ad dolor quaerat optio.5</p>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&reg; 2024 Simple Web Page</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+*{
+    background-color: aqua;
+    color: blue;
+    font-size: 18px;
+}
+
+.mystyle{
+    background-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Elements</h1>
+    <h3>Text Box</h3>
+        <form action="#" method="post">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name Here" required> 
+        <br>
+        <br>
+        <label for="email">Email Id.:</label>
+        <input type="email" name="email" id="email" placeholder="Email Id" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label><u><b>Hobbies</b></u></label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="travelling" name="hobbies" value="Travelling">
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" id="sports" name="Hobbies" value="Sports">
+        <label for="sports">Sports</label>
+        <br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="India">Bharat</option>
+            <option value="USA">America</option>
+            <option value="EU">Eurpope</option>
+        </select>
+        <br><br>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" cols="50" rows="5" maxlength="25" placeholder="Enter in 25 characters"></textarea>
+        <br>
+        <br>
+        <label for="file">Upload you Pic:</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+        <br>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <input type="submit" value="Submit Form" >
+        <input type="reset" value="Reset Form">
+        <input type="button" value="Cancel">
+    </form>
+</body>
+</html>
